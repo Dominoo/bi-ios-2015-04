@@ -13,6 +13,7 @@
 		B4716AF11BE88F3A0060A96A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4716AF01BE88F3A0060A96A /* Assets.xcassets */; };
 		B4716AF41BE88F3A0060A96A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4716AF21BE88F3A0060A96A /* LaunchScreen.storyboard */; };
 		B4716AFF1BE88F3A0060A96A /* bi_ios_recognizersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4716AFE1BE88F3A0060A96A /* bi_ios_recognizersUITests.swift */; };
+		B4716B0A1BE890180060A96A /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4716B091BE890180060A96A /* GraphView.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B4716AFA1BE88F3A0060A96A /* bi-ios-recognizersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bi-ios-recognizersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4716AFE1BE88F3A0060A96A /* bi_ios_recognizersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bi_ios_recognizersUITests.swift; sourceTree = "<group>"; };
 		B4716B001BE88F3A0060A96A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4716B091BE890180060A96A /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				B4716AF01BE88F3A0060A96A /* Assets.xcassets */,
 				B4716AF21BE88F3A0060A96A /* LaunchScreen.storyboard */,
 				B4716AF51BE88F3A0060A96A /* Info.plist */,
+				B4716B091BE890180060A96A /* GraphView.swift */,
 			);
 			path = "bi-ios-recognizers";
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			files = (
 				B4716AEC1BE88F3A0060A96A /* ViewController.swift in Sources */,
 				B4716AEA1BE88F3A0060A96A /* AppDelegate.swift in Sources */,
+				B4716B0A1BE890180060A96A /* GraphView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

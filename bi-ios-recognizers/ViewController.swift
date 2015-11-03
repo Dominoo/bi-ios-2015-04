@@ -9,9 +9,38 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    weak var graphView : GraphView!
+    
+    
+    override func loadView() {
+        self.view = UIView()
+        
+        let gv = GraphView(frame: CGRectZero)
+        self.view.addSubview(gv)
+        self.graphView = gv
+        
+        
+        
+        
+        
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        self.graphView.frame = CGRectMake(8, 20 + 8, CGRectGetWidth(self.view.bounds) - 16, 200);
+        
+
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
