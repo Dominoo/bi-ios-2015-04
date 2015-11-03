@@ -14,7 +14,8 @@ class GraphView : UIView {
     
     var amplitude : CGFloat = 2.0 {
         didSet {
-            print("ahoj nastavil jsem amp")
+            //print("ahoj nastavil jsem amp")
+            setNeedsDisplay()
         }
     }
     

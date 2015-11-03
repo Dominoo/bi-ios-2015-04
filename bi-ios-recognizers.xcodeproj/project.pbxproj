@@ -14,6 +14,7 @@
 		B4716AF41BE88F3A0060A96A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4716AF21BE88F3A0060A96A /* LaunchScreen.storyboard */; };
 		B4716AFF1BE88F3A0060A96A /* bi_ios_recognizersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4716AFE1BE88F3A0060A96A /* bi_ios_recognizersUITests.swift */; };
 		B4716B0A1BE890180060A96A /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4716B091BE890180060A96A /* GraphView.swift */; settings = {ASSET_TAGS = (); }; };
+		B4716B0C1BE895E60060A96A /* PanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4716B0B1BE895E60060A96A /* PanelView.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		B4716AFE1BE88F3A0060A96A /* bi_ios_recognizersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bi_ios_recognizersUITests.swift; sourceTree = "<group>"; };
 		B4716B001BE88F3A0060A96A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4716B091BE890180060A96A /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		B4716B0B1BE895E60060A96A /* PanelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				B4716AF21BE88F3A0060A96A /* LaunchScreen.storyboard */,
 				B4716AF51BE88F3A0060A96A /* Info.plist */,
 				B4716B091BE890180060A96A /* GraphView.swift */,
+				B4716B0B1BE895E60060A96A /* PanelView.swift */,
 			);
 			path = "bi-ios-recognizers";
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4716AEC1BE88F3A0060A96A /* ViewController.swift in Sources */,
+				B4716B0C1BE895E60060A96A /* PanelView.swift in Sources */,
 				B4716AEA1BE88F3A0060A96A /* AppDelegate.swift in Sources */,
 				B4716B0A1BE890180060A96A /* GraphView.swift in Sources */,
 			);
